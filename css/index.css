@@ -56,6 +56,21 @@ html,body{
     background-size: 100%;
     background-position: center;
 }
+
+.hew_pic {
+    width: 300px;
+    height: 180px;
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 25px;
+    left: 0;
+    overflow: hidden;
+    cursor: pointer;
+    background: url("../img/hew.jpg");
+    background-size: 100%;
+    background-position: 50% 50%;
+}
 .member_info{
 	margin-left: 334px;
 	margin-top:10px;
@@ -78,7 +93,7 @@ html,body{
 .member_info p a{
 	color:#666;
 }
-.member_more{
+.member_more {
 	display: block;
     width: 137px;
     height: 35px;
@@ -94,6 +109,8 @@ html,body{
     border: 1px solid #76b7e6;
     text-align: center;
 }
+
+
 .member_more:hover{
 	background: #76b7e6;
     color: #ffffff;
