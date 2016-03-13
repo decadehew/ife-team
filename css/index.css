@@ -57,7 +57,7 @@ html,body{
     background-position: center;
 }
 
-.hew_pic {
+.hew_pic, .tan_pic1 {
     width: 300px;
     height: 180px;
     display: block;
@@ -68,8 +68,23 @@ html,body{
     overflow: hidden;
     cursor: pointer;
     background: url("../img/hew.jpg");
-    background-size: 100%;
-    background-position: 50% 50%;
+    background-size: 80%;
+    background-position: top;
+}
+
+.tan_pic {
+    width: 300px;
+    height: 180px;
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 25px;
+    left: 0;
+    overflow: hidden;
+    cursor: pointer;
+    background: url("../img/tan.jpg");
+    background-size: 69%;
+    background-position: top;
 }
 .member_info{
 	margin-left: 334px;
